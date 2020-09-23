@@ -1,0 +1,15 @@
+Run the EXE once and set the text colour of your choice by clicking on the coloured button.
+
+To keep the background transparent constantly, even after desktop refreshes and after
+every windows reboot simply create a shortcut to the EXE and add the command line
+" -on-h" (no quotations) and place the shortcut in the StartUp folder. It'll load the
+program, set the text colour of your choice, keep the background transparent and hide the
+program window. To stop the program or change text colour after doing this you'll need to
+hit Ctrl-Alt-Del and End Task it.
+
+If you don't know how to create the shortcut simply right click on the one contained in the
+zip file (TransDtopIco.lnk), select Properties and change the path
+"C:\Program Files\TDI\TransDtopIco.exe" -on-h
+to the path where the exe is located on your system.
+
+Be sure to keep tdi.ini in the same folder as the EXE.
